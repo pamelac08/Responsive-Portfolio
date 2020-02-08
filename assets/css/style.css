@@ -68,7 +68,7 @@ body {
   
   #logo {
     float: left;
-    width: 350px;
+    width: 325px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
@@ -111,6 +111,10 @@ body {
     background: #666666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
   
   h3, h2 {
@@ -233,20 +237,20 @@ body {
       max-width: 700px;
     }
     nav {
-      margin-right: 12px;
+      margin-right: 20px;
     }
 
   }
 
   @media screen and (max-width: 768px) {
     .main-section {
-      max-width: 100%;
+      max-width: 700px;
     }
     #masthead {
       max-width: 768px;
     }
     nav {
-      margin-right: 12px;
+      margin-right: 20px;
     }
 
   }
@@ -259,7 +263,8 @@ body {
     #main-container {
       padding-top: 0;
     }
-    #masthead {
+    #masthead, 
+    footer {
       position: static;
     }
     #logo {
