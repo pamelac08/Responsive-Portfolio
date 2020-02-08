@@ -131,7 +131,7 @@ body {
   .main-section {
     float: left;
     width: 100%;
-    max-width: 960px;
+    max-width: 700px;
     padding: 30px;
     margin: 0 0 40px;
     background: #ffffff;
@@ -219,6 +219,10 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
 
 
 
@@ -227,6 +231,9 @@ body {
   @media screen and (max-width: 980px) {
     .main-section {
       max-width: 700px;
+    }
+    nav {
+      margin-right: 12px;
     }
 
   }
@@ -238,30 +245,56 @@ body {
     #masthead {
       max-width: 768px;
     }
+    nav {
+      margin-right: 12px;
+    }
 
   }
 
   @media screen and (max-width: 640px) {
     .main-section {
       max-width: 640px;
+     
     }
-    nav {
-      float: none;
-      align-self: center;
+    #main-container {
+      padding-top: 0;
+    }
+    #masthead {
+      position: static;
     }
     #logo {
       float: none;
+    }
+
+    #logoContainer {
       width: 100%;
-      padding: 50px;
-      align-self: center;
+      text-align: center;
+      background-color: #4aaaa5;
+    }
+    nav {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .auth-image {
+      float: none;
+      width: 100%;
+    }
+    .work {
+      width: 100%;
+    }
+
+    
+
+  }    
      
 
-    }
+  
 
 
         
 
-  }
+  
   /* Make the position of the header `static` (the default positioning) when the screen is `640px` wide. 
   The header design takes up a lot of room; you don't want it to stick to the top of a small screen and 
   leave no room for the rest of your site. */

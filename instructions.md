@@ -29,3 +29,7 @@ Assignment Two Instructions - (No Bootstrap)
 9. **Protip**: Use the Chrome extensions [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) and [Browser Width](https://chrome.google.com/webstore/detail/browser-width/mlnegepkjlccabakompdmbcmdieaideh) to see the browser dimensions in Chrome.
 
 10. Deploy your new portfolio (now with media queries!) to GitHub Pages.
+
+
+BONUS
+Incorporate CSS animations in your portfolio. More info here. https://www.w3schools.com/css/css3_animations.asp
